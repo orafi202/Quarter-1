@@ -3,14 +3,14 @@
 
 */
 
-let myArray: number[] = [1, 2, 3, 4, 5];
+let myArray1: number[] = [1, 2, 3, 4, 5];
 
 
-let names: string[] = ["Asif Ali Zardari", "Nawaz Sharif", "Imran Khan"];
+let name1: string[] = ["Asif Ali Zardari", "Nawaz Sharif", "Imran Khan"];
 
 
-for (let index = 0; index < names.length; index++) {
-    const element = names[index];
+for (let index = 0; index < name1.length; index++) {
+    const element = name1[index];
     console.log(element);
     
 }
