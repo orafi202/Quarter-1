@@ -27,5 +27,5 @@ console.log("Reverse the order: ", places.reverse());
 console.log("Current Order: ", places);
 console.log("Revering the order the again.", places.reverse());
 console.log("Sorting the array:" , places.sort());
-console.log("Sorting the array alphabatically in reverse order", places.sort().reverse());
+console.log("Sorting the array alphabatically in reverse order", places.sort().reverse()); // task is completed.
 
