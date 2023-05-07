@@ -19,13 +19,13 @@ let places : string[] = ["London", "New York", "Moscow", "Dehli", "Quetta"];
 console.log("Favorite places i would like to visit.");
 console.log(places);
 
-let places1 = places.sort(); // sorting the array in alphabatically and stored in new array.
-
-for (let i = 0; i < places1.length; i++) {
-    const element = places1[i];
-    console.log(`${i+1}:  ${places1[i]}`);
-    
-}
-
-console.log(places);
+console.log("Alphatical Order: ", [...places].sort()); // spread operator create shallow copy of the place to visit.
+console.log("Original order: " , places);
+console.log("Reversing the order without modifying original array: ", [...places].reverse());
+console.log("Original order: " , places);
+console.log("Reverse the order: ", places.reverse());
+console.log("Current Order: ", places);
+console.log("Revering the order the again.", places.reverse());
+console.log("Sorting the array:" , places.sort());
+console.log("Sorting the array alphabatically in reverse order", places.sort().reverse());
 
